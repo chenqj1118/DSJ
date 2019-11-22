@@ -1,0 +1,405 @@
+.el-menu{
+    border: none;
+}
+.el-menu-item.is-active {
+	background-color: #2b426e !important;
+ }
+ .contentTopBox{
+    margin: 10px;
+}
+ /* 通用表格样式 */
+.el-table--border th{
+	border-right: 2px solid #fff;
+}
+.has-gutter .el-table--border th{
+	border-right: none;
+}
+.el-table--border th{
+	border-bottom: 2px solid #fff;
+}
+.el-input-group__prepend{
+    padding: 0 10px !important;
+ }
+.el-table th>.cell{
+	text-align: center;
+	font-weight: normal;
+	color: #333;
+}
+.el-table td, .el-table th{
+	padding: 10px 0;
+}
+/* 多重表格样式 */
+.el-table thead.is-group th{
+	background: #ebedf5;
+}
+.el-table thead.is-group th[rowspan="2"]{
+	border-right: none;
+}
+.el-table thead.is-group th:nth-child(6){
+	border-right: 2px solid #fff !important;
+}
+.el-table thead.is-group th.is-leaf{
+	background: #f7f8fc;
+}
+.el-table--border td {
+	border: none;
+}
+.el-table .cell{
+	color: #666;
+	text-align: center;
+	font-weight: normal;
+}
+.el-table--border, .el-table--group{
+	border: none;
+}
+.el-table--group .el-table__row td{
+	border-bottom: 1px dashed #ddd;
+}
+.el-table--group .el-table__row:last-child td{
+	border: none;
+}
+/* 普通表格样式 */
+.ordinaryTable .el-table thead td, .ordinaryTable .el-table thead th.is-leaf{
+	background: #ebedf5;
+}
+.ordinaryTable .el-table td, .ordinaryTable .el-table th.is-leaf{
+	border: none;
+}
+.ordinaryTable .el-table__row td{
+	border-bottom: 1px dashed #ddd;
+}
+/* 分页样式 */
+.pageBox{
+	margin: 30px 0;
+}
+.el-pagination .btn-prev ,.el-pagination .btn-next{
+	border: 1px solid #ddd;
+	padding: 0 10px;
+	border-radius: 3px;
+	height: 28px;
+	line-height: 28px;
+}
+.el-pagination .btn-prev:hover ,.el-pagination .btn-next:hover{
+	border-color: #409eff;
+}
+.el-pagination .el-pager li{
+	border: 1px solid #ddd;
+	margin-right: 5px;
+	font-weight: normal;
+	border-radius: 3px;
+}
+.el-pagination .el-pager li:first-child{
+	margin-left: 5px;
+}
+.el-pager li.active+li{
+	border-left: 1px solid #ddd;
+}
+.el-card__body{
+	width: 100%;
+}
+.contentRight>div{
+    position: relative;
+}
+/* 基础水平表格按钮样式 */
+.basiciTableBtn{
+    border: 5px solid #999999;
+    border-radius: 5px;
+	background: #999999;
+	position: absolute;
+    bottom: 35px;
+    right: 50px;
+    z-index: 1;
+}
+.basiciTableBtn a{
+	display: block;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #fff;
+	background: #6f798b;
+	padding: 5px 15px;
+	letter-spacing: 5px;
+}
+.basiciTableBtn a:hover{
+	background: rgba(111, 121, 139, 0.64);
+	color: #fff;
+}
+/* 筛选条件样式 */
+.screenBox{
+    border: 1px solid #d2d2d2;
+    padding: 0 10px;
+}
+.screenBox .items{
+	border-bottom: 1px dashed #ddd;
+	padding: 8px 10px;
+}
+.screenBox .items:last-child{
+	border: none;
+}
+.screenBox .condition{
+	width: 90px;
+	color: #333;
+}
+.screenBox .classify{
+    width: calc(100% - 90px);
+    position: relative;
+    height: 21px;
+    overflow: hidden;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.screenBox .classify.moreShow{
+	height: auto;
+	overflow: auto;
+}
+.screenBox .classify>div{
+	display: inline-block;
+	padding: 0 30px 3px 0;
+	cursor: pointer;
+	color: #777;
+}
+.screenBox .classify>div:nth-child(2){
+	margin-left: -4px;
+}
+.screenBox .classify .p_active, .screenBox .classify .c_active, .screenBox .classify .n_active, .screenBox .classify .t_active, .screenBox .classify .ca_active, .screenBox .classify .e_active{
+	color: #f41e01;
+}
+.screenBox .classify .more{
+	color: #999;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+/* 自定义表格样式 */
+/* 信用水平表格 */
+.credit .el-table thead th.is-leaf:nth-child(7),.credit .el-table thead th.is-leaf:nth-child(8),
+.credit .el-table thead th.is-leaf:nth-child(9),.credit .el-table thead th.is-leaf:nth-child(10),
+.credit .el-table thead th.is-leaf:nth-child(11){
+	/* background: #a5bf5a */
+	background: #2abec8
+}
+.credit .el-table thead th.is-leaf:nth-child(12),.credit .el-table thead th.is-leaf:nth-child(13),
+.credit .el-table thead th.is-leaf:nth-child(14),.credit .el-table thead th.is-leaf:nth-child(15){
+	background: #a5bf5a
+}
+.credit .el-table thead th.is-leaf:nth-child(16),.credit .el-table thead th.is-leaf:nth-child(17),
+.credit .el-table thead th.is-leaf:nth-child(18),.credit .el-table thead th.is-leaf:nth-child(19),
+.credit .el-table thead th.is-leaf:nth-child(20),.credit .el-table thead th.is-leaf:nth-child(21){
+	background: #c89e64;
+}
+.credit .el-table thead th.is-leaf:nth-child(22),.credit .el-table thead th.is-leaf:nth-child(23),
+.credit .el-table thead th.is-leaf:nth-child(24),.credit .el-table thead th.is-leaf:nth-child(25),
+.credit .el-table thead th.is-leaf:nth-child(26),.credit .el-table thead th.is-leaf:nth-child(27){
+	background: #f5a101;
+}
+.changeColor1{
+    background:#2abec8 !important;
+}
+.changeColor2{
+    background:#a5bf5a !important;
+}
+.changeColor3{
+    background:#c89e64 !important;
+}
+
+.chartsBox{
+    margin-bottom: 10px;
+}
+.el-row {
+    margin-bottom: 20px;
+}
+
+.toolDiv{
+	padding: 10px;
+	border-radius: 5px;
+	background: #fff;
+	box-shadow: 0 2px 5px 0 hsla(0, 0%, 0%, 0.2);
+	color: #333;
+	width: 240px;
+}
+.toolDiv > p{
+	font-size: 16px;
+	font-weight: 500;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #c2d3e3;
+}
+.toolDiv h4{
+	font-weight: normal;
+	color: #999;
+	margin-top: 5px;
+}
+.toolDiv .item li{
+	float: left;
+	width: 80px;
+	font-size: 12px;
+}
+.toolDiv .item span{
+	margin-right: 10px;
+}
+.toolDiv .item li:nth-child(1){
+	color: #435e93;
+}
+.toolDiv .item li:nth-child(2){
+	color: #eea93f;
+}
+.toolDiv .item li:nth-child(3){
+	color: #3fcfd5;
+}
+.toolDiv .item li:nth-child(4){
+	color: #df7b3f;
+}
+.toolDiv .item li:nth-child(5){
+	color: #4ea973;
+}
+.toolDiv .item.yjLv li{
+	width: 120px;
+}
+.toolDiv .item.yjLv li:nth-child(1){
+	color: #f41e01;
+}
+.toolDiv .item.yjLv li:nth-child(2){
+	color: #ecc800;
+}
+.toolDiv .item.yjLv li:nth-child(3){
+	color: #435e93;
+}
+.toolDiv .item.yjLv li:nth-child(4){
+	color: #1f9b56;
+}
+
+
+/*库存管理 cqj 2019.03.29*/
+.Cyellow,
+.Cyellow .cell{
+    color:#eea93f
+}
+.Cred,
+.Cred .cell{
+    color:#f41e01
+}
+.Cblue,
+.Cblue .cell{
+    color:#3fcfd5
+}
+.Cgreen,
+.Cgreen .cell{
+    color:#63ef68
+}
+
+.actived{
+    color: #f41e01!important;
+}
+.breadcrumb{
+    margin:10px;
+}
+.contentRightInner{
+    padding:10px 20px;
+    background: #fff;
+    position: relative;
+}
+.contentRightInner .blockTable{
+     position: relative;
+ }
+.contentRightInner .tools{
+     position: absolute;
+     right:0;
+     top:-46px;
+ }
+.contentRightInner .tools a{
+    color:#666;
+}
+.chartTitle{
+    background: #fff;
+    padding: 10px 10px 10px 20px;
+    margin:0 -10px 10px -10px;
+}
+.chartTitle .title{
+    font-size: 16px;
+    color: #50699a;
+    line-height: 32px;
+}
+
+.chartContainer{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+.chartContainer .myChart{
+
+ }
+/* 图表筛选条件样式 */
+.chartFilterItem{
+    margin-bottom:5px;
+}
+.chartFilterItem .condition{
+    width: 90px;
+    color: #333;
+}
+.chartFilterItem .classify{
+    width: calc(100% - 90px);
+    position: relative;
+    height: 21px;
+    overflow: hidden;
+    padding-right: 40px;
+	box-sizing: border-box;
+	z-index: 1;
+}
+.chartFilterItem .classify.moreShow{
+    height: auto;
+	overflow: auto;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+.chartFilterItem .classify>span{
+    display: inline-block;
+    padding: 0 30px 3px 0;
+    cursor: pointer;
+    color: #777;
+}
+.chartFilterItem .classify>span:nth-child(2){
+    margin-left: -4px;
+}
+.chartFilterItem .classify .c_active{
+    color: #f41e01;
+}
+.chartFilterItem .classify .more{
+    color: #999;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.chartFilter .el-radio-group{
+    margin-bottom:15px;
+}
+
+.chartPage .contentRightInner{
+    background: transparent;
+}
+.chartPage .mychartBox{
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    box-shadow: 3px 3px 5px #ddd;
+    padding-top: 90px;
+ }
+.chartPage .chartFilter{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 25px);
+    box-sizing: border-box;
+}
+
+.overviewsPage  .el-tabs__header{
+    background: #fff;
+    margin: 0 -30px 20px -30px;
+    padding: 0 30px;
+}
+.overviewsPage .el-tabs__nav-wrap::after{
+    background: transparent;
+}
+.mychartBox h5{
+	color: #2b3f6e;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
